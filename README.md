@@ -53,6 +53,6 @@ The webpage is built with **HTML**, **CSS**, and **JavaScript**.
 
 This project is deployed and accessible online. Visit:  
 
-[Palette Piano Tiles - Tiles and Waves](https://harshitaa-dutta.github.io/Palette-Piano-Tiles/)
+[Palette Piano Tiles](https://harshitaa-dutta.github.io/Palette-Piano-Tiles/)
 
 ---

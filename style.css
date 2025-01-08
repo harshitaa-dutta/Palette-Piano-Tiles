@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h1 {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(153, 198, 218);
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h1:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e4f4,
+              0 0 25px #03e4f4,
+              0 0 50px #03e4f4,
+              0 0 100px #03e4f4;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+}
+
+header{
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    padding: 0 0;
+} 
+
+/* .heading{
+    border: 2px solid blue;
+    margin: 0;
+} */
+
+#form{
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+
+#input{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid #25495a;
+    background-color: black;
+    color: rgb(153, 198, 218);
+
+}
+
+
+.animated-border-button {
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: #25495a;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+.animated-border-button:hover {
+    color: rgb(153, 198, 218);
+}
+
+.animated-border-button:before,
+.animated-border-button:after {
+    border: 0 solid transparent;
+    transition: all 0.3s;
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 24px;
+  }
+  
+.animated-border-button:before {
+    border-top: 2px solid #98e4ec;
+    right: 0;
+    top: -4px;
+  }
+  
+.animated-border-button:after {
+    border-bottom: 2px solid #98e4ec;
+    bottom: -4px;
+    left: 0;
+  }
+  
+.animated-border-button:hover:before,
+.animated-border-button:hover:after {
+    width: 100%;
+
+  }
+
+
+.keys{
+    border: 2px solid white;
+    margin: 3px 3px;
+    padding: 0 0; 
+}
+
+#mainDiv{
+    /* border: 2px solid white; */
+    width: 80vw;
+    height: 100vh;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+
+
+/* input box animation --- */
+.col-3{float: left;
+     position: relative;
+    } /* necessary to give position: relative to parent. */
+input[type="text"]{
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+}
+
+.effect-7{
+    border: 1px solid #ccc; 
+    transition: 0.4s;
+}
+
+.effect-7 ~ .focus-border:before,
+.effect-7 ~ .focus-border:after{
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    width: 0; 
+    height: 4px; 
+    background-color: rgb(153, 198, 218); 
+    transition: 0.4s;
+}
+.effect-7 ~ .focus-border:after{
+    top: auto; 
+    bottom: 0;
+}
+.effect-7 ~ .focus-border i:before,
+.effect-7 ~ .focus-border i:after{
+    content: ""; 
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    width: 4px; 
+    height: 0; 
+    background-color: rgb(153, 198, 218); transition: 0.6s;
+}
+.effect-7 ~ .focus-border i:after{
+    left: auto; 
+    right: 0;
+}
+.effect-7:focus ~ .focus-border:before,
+.effect-7:focus ~ .focus-border:after{
+    left: 0; 
+    width: 100%; 
+    transition: 0.4s;
+}
+.effect-7:focus ~ .focus-border i:before,
+.effect-7:focus ~ .focus-border i:after{
+    top: 0; 
+    height: 100%; 
+    transition: 0.6s;
+}

@@ -35,7 +35,7 @@ The webpage is built with **HTML**, **CSS**, and **JavaScript**.
 - Animated "GO" button and placeholders for improved user experience.
 
 ### CSS:
-- **Title Styling**: "TILES AND WAVES" is styled with hover effects and shadows.  
+- **Title Styling**: Each tile is styled with hover effects and shadows.  
 - **Button Animation**:  
   - Animated the "GO" button using a `transition` effect with a duration of 0.3 seconds.  
   - Border changes upon hover.  
